@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  padding-top: 3%;
+  padding-left: 3%;
+  font-family: "Poppins";
+}
+
+/* Styles for navbar */
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 10vh;
+  padding-right: 3%;
+}
+
+img[alt="brand-logo"] {
+  width: 150px;
+  height: 50px;
+}
+
+.grow-list {
+  display: flex;
+  justify-content: start;
+  margin-top: 1%;
+  flex: 2;
+}
+
+.list {
+  margin-left: 5%;
+  display: flex;
+  gap: 50px;
+}
+
+.list-item {
+  list-style-type: none;
+  color: #c9c9c9;
+}
+
+ul :first-child {
+  color: #000000;
+}
+
+.nav-button {
+  width: 200px;
+  height: 55px;
+  border: none;
+  border-radius: 15px;
+  background: #5a20cb;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+/* Styles for banner container */
+
+.banner-container {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10%;
+}
+
+div.banner-container > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.heading-text {
+  font-size: 5rem;
+  line-height: 120%;
+  color: #3c2f60;
+}
+
+h1.heading-text > span {
+  color: #5a20cb;
+}
+
+.description {
+  font-size: 20px;
+  padding-right: 100px;
+  color: #c9c9c9;
+}
+
+.btn {
+  width: 300px;
+  height: 70px;
+}
